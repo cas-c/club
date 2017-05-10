@@ -5,6 +5,7 @@ const Main = () => {
     return (
         <section className="section">
             <div className="container main">
+            	<PentaUrl speed='' to="https://lipgloss.sucks"/>
             	<PentaUrl speed='1' to="https://lipgloss.sucks"/>
             	<PentaUrl speed='2' to="https://lipgloss.sucks"/>
             	<PentaUrl speed='3' to="https://lipgloss.sucks"/>
