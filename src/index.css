@@ -4,15 +4,37 @@ body {
   font-family: sans-serif;
 }
 
-.penta {
-  animation: penta-spin infinite 20s linear;
-  height: 10em;
-  margin: 20px;
-  color: #9DB4C0;
+.main a {
+	margin-right: 1em;
+	display: inline-block;
+	background-color: #C2DFE3;
+	width: 15em;
+	height: 15em;
 }
 
+.main a img {
+  height: 10em;
+  margin: 20px;
+}
+
+.penta {
+  animation: penta-spin infinite 20s linear;
+}
+
+.penta2 {
+  animation: penta-spin infinite 15s linear;
+}
+
+.penta3 {
+  animation: penta-spin infinite 10s linear;
+}
+
+.penta4 {
+  animation: penta-spin infinite 5s linear;
+}
 
 @keyframes penta-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
