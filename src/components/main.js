@@ -1,25 +1,14 @@
 import React from 'react';
-import Penta from '../images/penta.svg';
-//import Penta2 from '../images/penta2.svg';
-//import Penta3 from '../images/penta2.svg';
-//import Penta4 from '../images/penta2.svg';
+import PentaUrl from './pentaurl';
 
 const Main = () => {
     return (
         <section className="section">
             <div className="container main">
-                <a href="https://lipgloss.sucks" className="box">
-                	<img src={Penta} alt='pentacle' className="penta" />
-                </a>
-                <a href="https://lipgloss.sucks" className="box">
-                	<img src={Penta} alt='pentacle' className="penta2" />
-                </a>
-                <a href="https://lipgloss.sucks" className="box">
-                	<img src={Penta} alt='pentacle' className="penta3" />
-                </a>
-                <a href="https://lipgloss.sucks" className="box">
-                	<img src={Penta} alt='pentacle' className="penta4" />
-                </a>
+            	<PentaUrl speed='1' to="https://lipgloss.sucks"/>
+            	<PentaUrl speed='2' to="https://lipgloss.sucks"/>
+            	<PentaUrl speed='3' to="https://lipgloss.sucks"/>
+            	<PentaUrl speed='4' to="https://lipgloss.sucks"/>
             </div>
         </section>
     );
