@@ -7,14 +7,42 @@ body {
 .main a {
 	margin-right: 1em;
 	display: inline-block;
-	background-color: #C2DFE3;
 	width: 15em;
 	height: 15em;
+}
+
+.main .box {
+  background-color: #DDEDEF;
+}
+
+.main .box1 {
+  background-color: #D2E7EA;
+}
+
+.main .box2 {
+  background-color: #C2DFE3;
+}
+
+.main .box3 {
+  background-color: #B1CBCF;
+}
+
+.main .box4 {
+  background-color: #A1B9BD;
 }
 
 .main a img {
   height: 10em;
   margin: 20px;
+}
+
+.main a span {
+  float: left;
+  margin: 1em 0 0 -1em;
+}
+
+.penta {
+  animation: penta-spin infinite 30s linear;
 }
 
 .penta1 {
