@@ -3,3 +3,16 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.penta {
+  animation: penta-spin infinite 20s linear;
+  height: 10em;
+  margin: 20px;
+  color: #9DB4C0;
+}
+
+
+@keyframes penta-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
